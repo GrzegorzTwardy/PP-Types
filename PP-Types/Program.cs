@@ -50,7 +50,7 @@ void PrintColumns(string[] t, int perLine, int width)
         {
             if (t[i].Length > width)
             {
-                Console.Write(t[i].Substring(0, width - 1));
+                Console.Write(t[i].Substring(0, width));
             }
             else
             {
